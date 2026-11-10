@@ -1,9 +1,9 @@
 
-# 🌱 Automatic Plant Watering System Based on STM32 Blue Pill
+#  Automatic Plant Watering System Based on STM32 Blue Pill
 
 **Group 3 | MCP201 | FPT University Ho Chi Minh City | 2026**
 
-## 📌 1. Project Overview
+##  1. Project Overview
 
 This project presents the design and implementation of an **Automatic Plant Watering System using STM32 Blue Pill (STM32F103)**.
 
@@ -13,7 +13,7 @@ A DHT11 sensor monitors ambient temperature and humidity, while an LCD 1602 with
 
 The project is developed for educational purposes to demonstrate practical applications of embedded systems in plant care.
 
-## 👥 2. Team Members
+##  2. Team Members
 
 **Group 3 – MCP201**
 
@@ -29,7 +29,7 @@ The project is developed for educational purposes to demonstrate practical appli
 **Instructor:** VinhPT30  
 **Academic Year:** 2026
 
-## 🎯 3. Project Objectives
+##  3. Project Objectives
 
 - Design and implement a plant watering system using STM32.
 - Measure soil moisture through an analog sensor.
@@ -41,7 +41,7 @@ The project is developed for educational purposes to demonstrate practical appli
 - Store configuration settings in Flash memory.
 - Improve operational reliability through software protection mechanisms.
 
-## 🔧 4. Hardware Components
+##  4. Hardware Components
 
 | No. | Component | Function |
 |---|---|---|
@@ -55,7 +55,7 @@ The project is developed for educational purposes to demonstrate practical appli
 | 8 | Four Push Buttons | MENU, UP, DOWN and PUMP |
 | 9 | On-board LED | Indicates system activity |
 
-## ⚙️ 5. Main Features
+##  5. Main Features
 
 ### 5.1. Automatic Watering
 
@@ -121,7 +121,7 @@ The firmware includes:
 - I2C communication recovery.
 - Configuration storage in STM32 Flash memory.
 
-## 🔌 6. Hardware Pin Configuration
+##  6. Hardware Pin Configuration
 
 | Component | STM32 Pin | Description |
 |---|---|---|
@@ -143,7 +143,7 @@ I2C addresses:
 
 **Note:** Ensure correct voltage compatibility between the STM32, relay module and other components. The water pump must use an appropriately rated power supply.
 
-## 🧠 7. System Operating Principle
+##  7. System Operating Principle
 
 The system operates through the following process:
 
@@ -173,7 +173,7 @@ Default calibration values:
 
 Actual calibration is necessary because readings depend on soil conditions and sensor characteristics.
 
-## 💻 8. Software Development
+## 8. Software Development
 
 **Programming Language:** Embedded C
 
@@ -195,7 +195,7 @@ Actual calibration is necessary because readings depend on soil conditions and s
 
 **TIM2:** 1 MHz timing reference for DHT11 communication.
 
-## 🚀 9. Basic Setup
+##  9. Basic Setup
 
 1. Download or clone the repository.
 2. Open the STM32CubeIDE project.
@@ -207,7 +207,7 @@ Actual calibration is necessary because readings depend on soil conditions and s
 8. Configure watering thresholds and schedule.
 9. Test automatic, scheduled and manual watering.
 
-## 🧪 10. Testing and Results
+##  10. Testing and Results
 
 The project report describes eight functional test scenarios.
 
@@ -235,7 +235,7 @@ The reported results show that the system responded to the tested watering condi
 
 However, long-term operation and durability have not yet been fully evaluated.
 
-## ⚠️ 11. Limitations
+##  11. Limitations
 
 - Soil moisture measurements require calibration.
 - The resistive soil sensor may experience electrode corrosion.
@@ -244,7 +244,7 @@ However, long-term operation and durability have not yet been fully evaluated.
 - DHT11 readings are used for monitoring only.
 - Long-term reliability has not been fully verified.
 
-## 🔮 12. Future Development
+##  12. Future Development
 
 Potential improvements include:
 
@@ -256,13 +256,13 @@ Potential improvements include:
 - Adding remote notifications.
 - Supporting multiple watering zones.
 
-## 📚 13. Documentation
+##  13. Documentation
 
 Detailed information about hardware design, software implementation, circuit schematics, testing and evaluation is provided in the project report:
 
 **REPORT_STM32AutomaticWateringGarden_Group3.docx**
 
-## 📝 14. Conclusion
+##  14. Conclusion
 
 The Automatic Plant Watering System demonstrates the practical application of STM32 microcontrollers in embedded control systems.
 
